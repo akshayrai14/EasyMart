@@ -1,0 +1,32 @@
+.cartitems{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.buttonia {
+    background-color: #272424;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 95%;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s;
+    margin: 2%;
+    width: 10%;
+    height: 50px;
+  }
+  
+  .buttonia:hover {
+    background-color: #91c2c4c4;
+    color: #000000;
+    
+  }
+  .checkout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
